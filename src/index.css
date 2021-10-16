@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Press+Start+2P&display=swap");
+body {
+  margin: 0;
+}
+
+.font-primary {
+  font-family: "Press Start 2P", cursive;
+}
+
+.font-secondary {
+  font-family: "Open Sans", sans-serif;
+}
+
+.banner-header {
+  font-family: "Press Start 2P", cursive;
+  font-size: 72px;
+}
+
+.header {
+  font-family: "Press Start 2P", cursive;
+  font-size: 36px;
+  color: #000;
+}
+
+.highlight {
+  color: #B0235F;
+}
+
+.btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.btn-primary {
+  background-color: #E5347F;
+  color: #fff;
+  box-shadow: 0 11px #B0235F;
+}
+
+.btn-secondary {
+  background-color: #fff;
+}
+
+.p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  color: #000;
+}
+
+/*# sourceMappingURL=index.css.map */

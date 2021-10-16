@@ -10,8 +10,59 @@ $primary-text-colour: #000;
 $secondary-text-colour: #B0235F;
 $button-colour: #E5347F;
 $button-shadow-colour: #B0235F;
+$button-shadow: 0 11px #B0235F;
 $card-shadow: 0px 4px 23px rgba(250, 128, 114, 0.55);
 $shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 $text-muted-colour: #7D7D7D;
 $border-radius: 5px;
 $border-radius-button: 2px;
+
+body{
+    margin: 0;
+}
+
+.font-primary{
+    font-family: $header-font;
+}
+
+.font-secondary{
+    font-family: $font;
+}
+
+.banner-header{
+    font-family: $header-font;
+    font-size: $banner-font-size;
+}
+
+.header{
+    font-family: $header-font;
+    font-size: $header-font-size;
+    color: $primary-text-colour;
+}
+
+.highlight{
+    color: $secondary-text-colour;
+}
+
+.btn{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: $font-size;
+}
+
+.btn-primary{
+    background-color: $button-colour;
+    color: $button-text-colour;
+    box-shadow: $button-shadow;
+}
+
+.btn-secondary{
+    background-color: #fff;
+}
+
+.p{
+    font-family: $font;
+    font-size: $font-size;
+    color: $primary-text-colour;
+}
