@@ -10,6 +10,8 @@ function App() {
       <button className='btn btn-primary font-primary'>Click me</button>
       <button className='btn btn-secondary font-primary'>Click me</button>
       <p className='p'> Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum sequi neque nostrum expedita iure id quo animi exercitationem facere aspernatur quas, vitae doloribus quia beatae labore repellat sint culpa eveniet?</p>
+      <input type="text" className="text-input input-field font-secondary" placeholder='Example' />
+      <textarea name="message" placeholder='Message' className='text-input text-area font-secondary'></textarea>
     </div>
   );
 }

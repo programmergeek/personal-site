@@ -77,6 +77,32 @@ body{
     color: $primary-text-colour;
 }
 
+.text-input{
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+    border-radius: $border-radius;
+    border: none;
+    font-size: $font-size;
+}
+
+.text-input:focus{
+    outline: none;
+}
+
+.input-field{
+    width: 340px;
+    height: 45px;
+    padding: 5px;
+    padding-left: 10px;
+}
+
+.text-area{
+    width: 500px;
+    height: 250px;
+    resize: none;
+    padding: 10px;
+    padding-top: 25px;
+}
+
 @keyframes btn_primary_click {
     to{
         transform: translate(0, 10px);
