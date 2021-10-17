@@ -67,6 +67,10 @@ body{
     background-color: #fff;
 }
 
+.btn-secondary:active{
+    animation: btn_secondary_click 100ms linear;
+}
+
 .p{
     font-family: $font;
     font-size: $font-size;
@@ -77,5 +81,11 @@ body{
     to{
         transform: translate(0, 10px);
         box-shadow: 0 1px #B0235F;
+    }
+}
+
+@keyframes btn_secondary_click {
+    to{
+        transform: scale(0.85);
     }
 }
