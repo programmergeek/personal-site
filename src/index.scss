@@ -59,6 +59,10 @@ body{
     box-shadow: $button-shadow;
 }
 
+.btn-primary:active{
+    animation: btn_primary_click 100ms linear;
+}
+
 .btn-secondary{
     background-color: #fff;
 }
@@ -67,4 +71,11 @@ body{
     font-family: $font;
     font-size: $font-size;
     color: $primary-text-colour;
+}
+
+@keyframes btn_primary_click {
+    to{
+        transform: translate(0, 10px);
+        box-shadow: 0 1px #B0235F;
+    }
 }
