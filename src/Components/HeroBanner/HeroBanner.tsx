@@ -4,8 +4,10 @@ export const HeroBanner:React.FC = () => {
 
     const [text, setText] = useState<String>("Will Code for Job")
 
-    return <div className='hero-banner'>
+    return (
+    <div className='hero-banner background-image'>
         <p className='banner-header'>{text}</p>
         <button className="btn btn-primary font-primary">Resume</button>
     </div>
+    )
 }

@@ -106,6 +106,16 @@ body{
     padding-left: 10px;
 }
 
+.hero-banner{
+    padding-top: 100px;
+    width: 100vw;
+    height: 50vh;
+}
+
+.background-image{
+    background: $background-image;
+}
+
 .text-area{
     width: 500px;
     height: 250px;
