@@ -23,6 +23,14 @@ body{
     margin: 0;
 }
 
+.d-flex{
+    display: flex;
+}
+
+.center{
+    justify-content: center;
+}
+
 .font-primary{
     font-family: $header-font;
 }
