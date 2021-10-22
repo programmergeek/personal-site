@@ -86,9 +86,17 @@ body {
 }
 
 @keyframes btn_primary_click {
-  to {
+  0% {
+    transform: translate(0, 0);
+    box-shadow: 0 11px #B0235F;
+  }
+  50% {
     transform: translate(0, 10px);
     box-shadow: 0 1px #B0235F;
+  }
+  100% {
+    transform: translate(0, 0);
+    box-shadow: 0 11px #B0235F;
   }
 }
 @keyframes btn_secondary_click {

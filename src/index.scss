@@ -105,9 +105,19 @@ body{
 }
 
 @keyframes btn_primary_click {
-    to{
+    0%{
+        transform: translate(0, 0);
+        box-shadow: $button-shadow;
+    }
+
+    50%{
         transform: translate(0, 10px);
         box-shadow: 0 1px #B0235F;
+    }
+
+    100%{
+        transform: translate(0, 0);
+        box-shadow: $button-shadow;
     }
 }
 
