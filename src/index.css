@@ -60,7 +60,7 @@ body {
 }
 
 .text-input {
-  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
   border-radius: 2px;
   border: none;
   font-size: 16px;
@@ -68,6 +68,7 @@ body {
 
 .text-input:focus {
   outline: none;
+  animation: text_input_focus 150ms linear forwards;
 }
 
 .input-field {
@@ -81,8 +82,7 @@ body {
   width: 500px;
   height: 250px;
   resize: none;
-  padding: 10px;
-  padding-top: 25px;
+  padding: 15px;
 }
 
 @keyframes btn_primary_click {
@@ -94,6 +94,14 @@ body {
 @keyframes btn_secondary_click {
   to {
     transform: scale(0.85);
+  }
+}
+@keyframes text_input_focus {
+  from {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  }
+  to {
+    box-shadow: 0px 4px 23px rgba(250, 128, 114, 0.55);
   }
 }
 
