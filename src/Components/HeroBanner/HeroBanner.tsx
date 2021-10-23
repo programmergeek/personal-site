@@ -1,11 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 
 export const HeroBanner: React.FC = () => {
-  const [text, setText] = useState<string>("Will Code for Job");
-
   return (
     <div className="hero-banner background-image">
-      <p className="banner-header">{text}</p>
+      <p className="banner-header">Will Code for Job</p>
       <button className="btn btn-primary font-primary">Resume</button>
     </div>
   );
