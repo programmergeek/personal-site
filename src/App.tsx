@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import { AboutMe, HeroBanner, Navbar } from "./Components";
+import { AboutMe, HeroBanner, Navbar, Skills } from "./Components";
 
 function App() {
   return (
@@ -8,6 +8,7 @@ function App() {
       <HeroBanner />
       <Navbar />
       <AboutMe />
+      <Skills />
     </div>
   );
 }
