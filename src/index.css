@@ -7,6 +7,10 @@ body {
   display: flex;
 }
 
+.d-col {
+  flex-direction: column;
+}
+
 .center {
   justify-content: center;
 }
@@ -65,6 +69,10 @@ body {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   color: #000;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .text-input {

@@ -27,6 +27,10 @@ body{
     display: flex;
 }
 
+.d-col{
+    flex-direction: column;
+}
+
 .center{
     justify-content: center;
 }
@@ -85,6 +89,10 @@ body{
     font-family: $font;
     font-size: $font-size;
     color: $primary-text-colour;
+}
+
+.text-center{
+    text-align: center;
 }
 
 .text-input{
