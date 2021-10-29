@@ -15,6 +15,11 @@ body {
   justify-content: center;
 }
 
+.image-padding {
+  padding-left: 115px;
+  padding-right: 115px;
+}
+
 .font-primary {
   font-family: "Press Start 2P", cursive;
 }
